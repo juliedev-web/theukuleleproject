@@ -9,7 +9,7 @@ Le site sera évolutif en fonction de mes apprentissages.
 
 ## CHOIX TECHNIQUES
 
-- Dessiner en CSS l'ukulele pour pratiquer : l'indentation des <div>, les positions et les flexbox 
+- Dessiner en CSS l'ukulele pour pratiquer : l'indentation des balises HTML, les positions et les flexbox 
 - Deux animations sur les menus Aloha et Pluck 
 
 ## AVANCEMENT DU PROJET
@@ -22,8 +22,9 @@ Le site sera évolutif en fonction de mes apprentissages.
 
 - Recalage de la première mécanique en haut (tête de l'ukulele, le premier rond est mal calé)
 - Réalisation d'un footer 
-- Déploiement
+- site responsive
 - Continuer la réalisation des pages Aloha et Pluck  (ajout de contenu, structure HTML et styles CSS)
 - Ajout d'un menu "burger"  animé si possible
+- - Déploiement
 
 
