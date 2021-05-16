@@ -35,32 +35,7 @@ header h1 a:hover {
     align-items: center;
 }
 
-h2 {
-    margin: 10px;
-    margin-bottom: 20px;
-    padding: 10px;
-    font-size: 2.5rem;
-    color: #46237A;
-    text-align: center;
-}
-
-.aloha_text {
-    margin: 10px;
-    padding: 10px;
-    font-size: 1.25rem;
-    color: #256EFF;
-    text-align: center;
-}
-
-iframe {
-    display: block;
-    margin: auto;
-}
-
-img {
-    display: block;
-    margin: auto;
-}
+/* CSS du uke dessiné en CSS */
 
 .head {
     background-color: #46237A;
@@ -153,15 +128,23 @@ img {
 
 .manche_pluck {
     position: absolute;
+    top: 200px;
+    left: 5px;
+}
+
+.manche_achat {
+    position: absolute;
     top: 122px;
     left: 5px;
 }
 
-.manche_uke {
+.manche .manche_contact {
     position: absolute;
-    top: 200px;
-    left: 5px;
+    top: 320px;
+    left: 3px;
+    font-size: 1.5em;
 }
+
 
 .ventre {
     background-color: white;
@@ -190,20 +173,37 @@ img {
     margin-bottom: 50px;
 }
 
-/*CSS pour la page Achat*/
-
-.achat {
+/* CSS GENERAL DES ARTICLES  */
+.article {
     width: 80%;
     height: auto;
     padding: 0.9rem;
     margin: auto;
 }
 
+h2 {
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 2.5rem;
+    color: #002a66;
+    text-align: center;
+}
+
+p {
+    margin: 15px;
+}
+
+.article-text {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
 h4 {
     margin: 10px;
     padding: 10px;
     font-size: 1.5em;
-    color: #FCFCFC;
+    color: #d52870;
     text-align: left;
 }
 
@@ -215,34 +215,26 @@ ul > li {
     list-style-type: disc; 
     font-size: 1.3rem;
     line-height: 1.5rem;
-} 
-
-.article-text {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
 }
 
-/*CSS pour la page Aloha*/
-
-.aloha_page {
-    width: 100%;
-    height: 100vh;
+img {
+    display: block;
+    margin: 15px auto;
 }
 
-/*CSS pour la page Pluck*/
+/*CSS formulaire de contact*/
 
-.pluck_page {
-    width: 100%;
-    height: 100vh;
-}
+
+/*CSS pour le footer */
 
 footer {
     width: 100%;
     position: relative;
-}
-
-footer img {
-    
+    background-color: #0363f2;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 footer > p {
@@ -251,12 +243,5 @@ footer > p {
     text-align: center;
     padding: 0.9em;
     margin: auto;
-    position: absolute;
-    bottom: 0;
-
-}
-
-.link-bio {
-    text-decoration: none;
     color: #FCFCFC;
 }

@@ -16,6 +16,13 @@ Le site sera évolutif en fonction de mes apprentissages.
 - Animations sur les menus de navigation sur le manche 
 
 ## ✅ AVANCEMENT DU PROJET 
+Mai 2021
+- choix définitif des couleurs
+- photos ajoutées dans la page Achat
+- page Aloha terminée
+- harmonisation des class pour le CSS
+- refonte du footer
+
 Avril 2021   
 - L'ukulélé est dessiné en CSS 
 - Page Achat mise en ligne
