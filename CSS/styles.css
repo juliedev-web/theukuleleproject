@@ -229,9 +229,8 @@ img {
 
 footer {
     width: 100%;
-    position: relative;
+    position: fixed;
     background-color: #0363f2;
-    position: absolute;
     bottom: 0;
     display: flex;
     flex-direction: row;
