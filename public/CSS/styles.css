@@ -176,10 +176,67 @@ header h1 a:hover {
 /* CSS GENERAL DES ARTICLES  */
 .article {
     width: 80%;
-    height: auto;
     padding: 0.9rem;
     margin: auto;
 }
+
+.article-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 10px;
+}
+
+article {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 12.5px 10px rgba(0, 0, 0, 0.035),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+}
+
+article:nth-of-type(1) {
+    grid-column: 2 / 8;
+    grid-row: 1;
+    transform: rotate(-2deg);
+}
+
+article:nth-of-type(2) {
+    grid-column: 1 / 5;
+    grid-row: 2;
+    transform: rotate(2deg);
+
+}
+
+article:nth-of-type(3) {
+    grid-column: 1/ 9;
+    grid-row: 3;
+    transform: rotate(4deg);
+    z-index:1;
+}
+
+article:nth-of-type(4) {
+    grid-column: 5 / 9;
+    grid-row: 2;
+    z-index:1;
+    transform: rotate(-6deg);
+}
+
+article:nth-of-type(5) {
+    grid-column: 1 / 9;
+    grid-row: 4;
+    transform: rotate(-2deg);
+}
+
+
 
 h2 {
     margin: 10px;
@@ -197,6 +254,7 @@ p {
 .article-text {
     font-size: 1.3rem;
     line-height: 1.5rem;
+    padding: 10px;
 }
 
 h4 {
@@ -219,7 +277,23 @@ ul > li {
 
 img {
     display: block;
-    margin: 15px auto;
+    margin: auto;
+    width: 90%;
+}
+
+.uke-rosace {
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 30px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+
 }
 
 /*CSS formulaire de contact*/
