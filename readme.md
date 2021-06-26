@@ -14,6 +14,7 @@ Le site sera évolutif en fonction de mes apprentissages.
 
 - Dessiner en CSS l'ukulele pour pratiquer : l'indentation des balises HTML, les positions et les flexbox
 - Animations sur les menus de navigation sur le manche 
+- Cette version du site est déployée sur Vercel, donc je garde une version serverless pour me concentrer sur le front
 
 ## ✅ AVANCEMENT DU PROJET 
 Mai 2021
