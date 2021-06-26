@@ -219,7 +219,7 @@ article:nth-of-type(2) {
 article:nth-of-type(3) {
     grid-column: 1/ 9;
     grid-row: 3;
-    transform: rotate(4deg);
+    transform: rotate(2.5deg);
     z-index:1;
 }
 
@@ -246,6 +246,23 @@ h2 {
     color: #2070e0;
     text-align: center;
 }
+
+.aloha-title {
+    animation: 3s linear 1s infinite alternate slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+        width: 50%;
+    }
+    to {
+        margin-left: 50%;
+        width: 50%;
+    }
+}
+
+
 
 p {
     margin: 15px;
@@ -308,6 +325,10 @@ img {
     0 41.8px 33.4px rgba(0, 0, 0, 0.05),
     0 100px 80px rgba(0, 0, 0, 0.07);
 
+}
+
+.uke-julie {
+    width: 50%;
 }
 
 /*CSS formulaire de contact*/
