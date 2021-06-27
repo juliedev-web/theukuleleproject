@@ -1,8 +1,8 @@
 app = {
-    sendForm = () => {
+    sendForm: () => {
 
         const buttonForm = document.querySelector('.form'); 
-        buttonForm.addEventListener('click', showMessage);
+        buttonForm.addEventListener('click', app.showMessage);
        
     },
 
