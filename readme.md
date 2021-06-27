@@ -9,6 +9,7 @@ Le site est déployé à cette adresse : https://theukuleleproject.vercel.app
 
 Le but est de pouvoir m'exercer sur les notions apprises en formation, et de monter en compétences.  
 Le site sera évolutif en fonction de mes apprentissages.
+Et une seconde version avec le même contenu sera réalisée : avec une mise en page plus moderne, et des fonctionnalités supplémentaires
 
 ## 💡 CHOIX TECHNIQUES 
 
@@ -21,8 +22,6 @@ Le site sera évolutif en fonction de mes apprentissages.
 ## ✅ AVANCEMENT DU PROJET 
 Juin 2021
 - refonte de la mise en page des pages Aloha, Achat et Pluck (avec utilisation de CSS grid)
-- formulaire de contact
-
 
 Mai 2021
 - choix définitif des couleurs
@@ -37,11 +36,6 @@ Avril 2021
 - Menu de navigation animé sur le manche
 - Déploiement sur vercel 
 
-## 📆 A VENIR (actualisation au fur et à mesure)
-- site responsive
-- Réalisation des pages Aloha et Pluck  (ajout de contenu, structure HTML et styles CSS)
-- Formulaire de contact
-- Mentions légales
-
-
+## REMARQUES
+- Un autre site 
 
