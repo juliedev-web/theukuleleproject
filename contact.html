@@ -13,12 +13,41 @@
         </header>
         <article>
             <header>
-                <h2>Ici bientôt le formulaire de contact</h2>
+                <h2 class="contact"><mark>Vous voulez me contacter ?</mark></h2>
             </header>
         </article>
+        
+        <form action="mailto:julie.vandard@hey.com" enctype="text/plain" method="POST">
+            <div class="form">
+                <label for="firstname">Votre prénom :</label>
+                <input required type="text" id="firstname" name="firstname" placeholder="votre prénom">
+            </div>
+            <div class="form">
+                <label for="lastname">Votre nom :</label>
+                <input required type="text id="lastname" name="lastname" placeholder="votre nom">
+            </div>
+            <div class="form">
+                <label required for="mail">Votre e-mail</label>
+                <input type="email" id="mail" name="mail" placeholder="email@example.com">
+            </div>
+            <div class="form">
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message rows="10" cols="10" placeholder="Tapez votre message ici"></textarea>
+            </div>
+            <div class="form btn">
+                <input type="button" value="Envoyer" onclick="sendform()">
+            </div>
+        </form>
 
-        <footer class="footer">
+        <div class="sendForm">
+            <p>Merci pour votre message. Votre missive est bien partie !</p>
+        </div>
+
+    <footer class="footer">
             <p>Site réalisé par Julie Vandard </a> - 2021 - Retrouvez-moi sur <a href="https://twitter.com/jvgazouille" target="_blank" class="link-bio">Mon twitter</a> - <a href="https://www.linkedin.com/in/julie-vandard/" target="_blank" class="link-bio">Mon LinkedIn</a> - <a href="https://lesmainsdanslecode.com" target="_blank" class="link-bio">Mon blog</a></p>
-        </footer>
+    </footer>
     </body>
+
+    <script src="./app/app.js"></script>
+
 </html>

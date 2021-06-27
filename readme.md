@@ -13,10 +13,17 @@ Le site sera évolutif en fonction de mes apprentissages.
 ## 💡 CHOIX TECHNIQUES 
 
 - Dessiner en CSS l'ukulele pour pratiquer : l'indentation des balises HTML, les positions et les flexbox
+- Utiliser CSS Grid pour le positionnement des blocs d'articles
+- Utilisation de AnimateCss pour quelques effets
 - Animations sur les menus de navigation sur le manche 
-- Cette version du site est déployée sur Vercel, donc je garde une version serverless pour me concentrer sur le front
+- Cette version du site est déployée sur Vercel
 
 ## ✅ AVANCEMENT DU PROJET 
+Juin 2021
+- refonte de la mise en page des pages Aloha, Achat et Pluck (avec utilisation de CSS grid)
+- formulaire de contact
+
+
 Mai 2021
 - choix définitif des couleurs
 - photos ajoutées dans la page Achat
