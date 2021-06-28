@@ -137,13 +137,14 @@ header h1 a:hover {
     top: 122px;
     left: 5px;
 }
-
+/*
 .manche .manche_contact {
     position: absolute;
     top: 320px;
     left: 3px;
     font-size: 1.5em;
 }
+*/
 
 
 .ventre {
@@ -245,21 +246,16 @@ h2 {
     text-align: center;
 }
 
-.aloha-title {
-    animation: 3s linear 1s infinite alternate slidein;
+.animate__fadeInDownBig {
+    animation : fadeInDownBig;
+    animation-duration: 2s;
 }
 
-@keyframes slidein {
-    from {
-        margin-left: 0%;
-        width: 50%;
-    }
-    to {
-        margin-left: 50%;
-        width: 50%;
-    }
-}
 
+.animate_jello {
+    animation: jello;
+    animation-duration: 10s;
+}
 
 p {
     margin: 15px;
@@ -327,7 +323,6 @@ img {
 .uke-julie {
     width: 50%;
 }
-
 
 
 /*CSS pour le footer */
